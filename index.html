@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Adit</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- GSAP for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Fixed Header (Top Left) -->
+    <header class="fixed-header">
+        <div class="profile-icon">
+            <span>A</span>
+        </div>
+        <div class="header-text">
+            <h1>Adit</h1>
+            <p>Rekayasa Perangkat Lunak</p>
+        </div>
+    </header>
+
+    <!-- Page Container -->
+    <div class="page-container">
+
+        <!-- HOME PAGE (About Me) -->
+        <section id="home-page" class="page active">
+            <div class="about-card">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="badges">
+                    <div class="badge">
+                        <i class="fas fa-birthday-cake"></i> 17 Tahun
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-gamepad"></i> Gaming & Coding
+                    </div>
+                </div>
+
+                <p class="description">
+                    Halo! Saya Adit, seorang siswa Rekayasa Perangkat Lunak yang antusias dengan pengembangan web dan
+                    teknologi terbaru. Saya suka menciptakan tampilan web yang menarik dan interaktif.
+                </p>
+            </div>
+
+            <div class="navigation">
+                <a href="#" id="to-socials" class="nav-link">Next Page <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- SOCIAL PAGE -->
+        <section id="social-page" class="page hidden">
+            <div class="social-stack">
+                <a href="https://wa.me/6285701516287" target="_blank" class="social-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="https://instagram.com/riusssz" target="_blank" class="social-btn instagram">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://tiktok.com/@de.riusss" target="_blank" class="social-btn tiktok">
+                    <i class="fab fa-tiktok"></i>
+                    <span>TikTok</span>
+                </a>
+            </div>
+
+            <div class="navigation">
+                <a href="#" id="to-home" class="nav-link"><i class="fas fa-arrow-left"></i> Back to Home</a>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
